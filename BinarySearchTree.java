@@ -19,6 +19,14 @@
             root = null;
         }
 
+        // factorial() method to calculate factorial of given number
+        public String factorial(int n) {
+            if (n == 0)
+                return 1;
+            else
+                return (n * factorial(n - 1));
+        }
+
         public static void main(String args[])
         {
            System.out.println("Hola Java...");
