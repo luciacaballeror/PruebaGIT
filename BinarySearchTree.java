@@ -36,5 +36,7 @@
         public static void main(String args[])
         {
            System.out.println("Hola Java...");
+           BinarySearchTree bt = new BinarySearchTree();
+           System.out.println("Number of BST for key 3 is: " + bt.numOfBST(3));
         }
     }
