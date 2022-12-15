@@ -27,6 +27,12 @@
                 return (n * factorial(n - 1));
         }
 
+        // numOfBST() will calculate the number of binary search trees by calculalting Catalan NUmber for given key
+        public int numOfBST(int key) {
+            int catalanNumber = factorial(2 * key) / (factorial(key + 1) * factorial(key));
+            return catalanNumber;
+        }
+
         public static void main(String args[])
         {
            System.out.println("Hola Java...");
